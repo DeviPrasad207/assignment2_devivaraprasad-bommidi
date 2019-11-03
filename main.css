@@ -1,0 +1,32 @@
+/*<!—
+===========================================
+Student Name: DEVI VARA PRASAD BOMMIDI
+Solution for Info 600 - Assignment 2
+===========================================
+-->*/
+
+/*CSS code to create user interface for Student Record Management/Entry*/
+
+/*CSS style for the body content*/
+body {
+	background-color: #39CCCC;
+	padding: 50px;
+	text-align: left;
+	border: 20px solid rgb(112, 86, 42);
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+    }
+/*CSS style for the Header content*/
+h1 {
+	color: red;
+	font-size: 30px;
+	font-family: arial;
+
+}
+/*CSS style for the paragraph content*/
+p {
+	color: black;
+	font-size: 20px;
+}
+

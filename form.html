@@ -1,0 +1,43 @@
+<!—
+===========================================
+Student Name: DEVI VARA PRASAD BOMMIDI
+Solution for Info 600 - Assignment 2
+===========================================
+-->
+<!--HTML code to add and display entered records on the form-->
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<title>Student Record Management/Entry</title>
+<!--Script tag to reference javascript code-->
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+
+	 <body>
+<h1> Student Record Management </h1>
+
+<!--Form to request information from use-->
+	 <form name="MyFormDetails">
+            <p>
+				<font face="Courier New">
+                    Full Name &nbsp;&nbsp;&nbsp;&nbsp;
+					Major &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					Start Year</br>
+					<input name="firstname" size="20" type="text" id="firstname" Value=" "/>
+					<input name="major" size="20" type="text" id="major" Value=" " />
+					<input name="startyear" size="15" type="number" id="startyear" Value=" "/>&nbsp;
+					<input type= "button" value="Add Record" onclick="myRecord()">
+                 </font>
+             </p>
+	</form>
+
+<p id="test"><strong>Entered Record:</strong></p>
+	<p id="records"> </p>
+
+</body>
+</html>
