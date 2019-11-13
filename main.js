@@ -11,11 +11,11 @@ function myRecord(){
 	 var time = new Date().getHours();
 	 var minutes = new Date().getMinutes();
 	 var seconds = new Date().getSeconds();
-	 var studentname= document.getElementById("firstname").value+ "";
-	 var studentmajor= document.getElementById("major").value+ "";
-	 var studentyear= document.getElementById("startyear").value+ "";
+	 var studentname = document.getElementById("firstname").value+ "";
+	 var studentmajor = document.getElementById("major").value+ "";
+	 var studentyear = document.getElementById("startyear").value+ "";
 //Conditions to validate the year null fields
-	 if (studentyear <= 2000)
+	 if (studentyear < 2000)
 		  {
 		    alert ("Incorrect Year, please enter a year greater than or equal to 2000");
 			}
